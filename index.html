@@ -1,8 +1,89 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>My Web</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" >
+	<title>Using div</title>
+	<meta name="keywords" content=" " >
+	<meta name="description" content=" " >
+	<meta content="en-us" http-equiv="Content-Language" >
+	<meta content="General" name="rating" >
+	<meta content="Copyright © 2008-2009, You Name or Business All Rights Reserved" name="copyright" >
+	<meta name="viewport" content="width=device-width width-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<style media="screen">
+		body {
+			background:#ffffff;
+		}
+		body img { border: 0px; text-decoration: none;
+			}
+		#container {
+			width: 100%; padding: 1px; margin: 5px auto 10px auto; background-color: white;
+			}
+		#masthead {
+			background-color: #54B431; background-image: url ('clover-bg.jpg'); background-repeat: no-repeat; background-position: right center; height: 120px;
+			}
+		#top-nav {
+			height: 47px; border-top: solid medium #006600; border-bottom: solid medium #006600; background-color: #FFFFFF;
+			}
+		#left-nav {
+			margin: 10px 0px 10px 0px; width: 170px; float: left; border: thin dashed #006600;
+			}
+		#main-content {
+			margin: 10px 10px 10px 170px; background-color: #CCFFCC;
+			}
+		#footer {
+			border-top: 2px solid #006600; clear: both; padding: 0px 0px; text-align: center;
+			}
+		#footer.p { margin-top: 0px; margin-bottom: 0px; }
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  padding: 8px;
+			  background-color: #dddddd;
+			}
+	</style>
 </head>
 <body>
-<h1>Hello World this is from github.io</h1>
+	<div id="container">
+		<div id="masthead"> </div>
+		<div id="top-nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</div>
+		<div id="left-nav">
+		<ul>
+			<li class="down">Menu1</li>
+			<li class="down">Menu2</li>
+			<li class="down">Menu3</li>
+		</ul>
+		</div>
+		<div id="main-content">
+		Main Content</div>
+		<div id="footer">
+			<p> copyright@wawanhn.com</p>
+		</div>
+	</div>
+	<div>
+		<audio controls autoplay loop muted>
+			<source src="https://www.mediafire.com/file/l3ag61l2u0d5f7m/darkmp3-ru-caca-handika-karembong-kayas.mp3" type="audio/mpeg">
+				Your browser does not supported the audio element
+		</audio
+	</div>
 </body>
 </html>
